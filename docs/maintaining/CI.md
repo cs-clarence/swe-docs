@@ -10,3 +10,5 @@ python3 docs/maintaining/scripts/check_headings.py <previous release tag>
 ```
 
 When tagging a release, also run `lint_drafts.py --release` so no draft ships under a stability promise, or move drafts out first. See [VERSIONING](VERSIONING.md).
+
+The repository runs these in `.github/workflows/docs.yml` on every pull request and on pushes to `main`. `check_headings.py` runs on pull requests against the base branch. The `docs` job is the required check on `main`.

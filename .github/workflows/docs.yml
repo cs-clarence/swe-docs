@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Validate links
+        run: python3 docs/maintaining/scripts/validate_links.py
+      - name: Lint drafts
+        run: python3 docs/maintaining/scripts/lint_drafts.py
+      - name: By-tier table is current
+        run: |
+          python3 docs/maintaining/scripts/by_tier.py
+          git diff --exit-code docs/guidelines/reviewing/by-tier.md
+      - name: Headings removed or renamed are in the changelog
+        if: github.event_name == 'pull_request'
+        run: python3 docs/maintaining/scripts/check_headings.py "origin/${{ github.base_ref }}"
