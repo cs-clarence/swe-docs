@@ -36,7 +36,7 @@ Rate-limit or delay repeated attempts, and do not reveal whether an account exis
 
 ### Protect recovery paths as strongly as login
 
-Make reset and recovery flows use single-use, time-limited tokens sent only to a verified channel. The weakest path sets the strength.
+Make reset and recovery flows use single-use, time-limited tokens sent only to a verified channel. Attackers use the weakest path.
 
 ### Ask again for sensitive actions
 

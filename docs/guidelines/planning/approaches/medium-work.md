@@ -8,7 +8,7 @@ Work across a few components or modules, or a fix that needs investigation, with
 
 ### Understand the affected area before choosing an approach
 
-Read the callers, tests, and neighbors of what you will change, and confirm how it behaves today. A plan built on assumed behavior breaks on contact with the real code.
+Read the callers, tests, and neighbors of what you will change, and confirm how it behaves today. A plan built on assumed behavior breaks when it meets the real code.
 
 ### Write a short plan first
 

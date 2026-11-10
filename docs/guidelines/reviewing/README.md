@@ -11,4 +11,4 @@ How to evaluate a change. Rules live in [authoring](../authoring/README.md); rev
 | [checks/](checks) | Yes/no checks per area, linked to the rules they verify. |
 | [agents](agents.md) | Reviewing agent output, and agents as reviewers. |
 
-Review against the *effective* rules: apply the repository's [overrides](../core/precedence.md#overriding-rules) first.
+Review against the *effective* rules. Apply the repository's [overrides](../core/precedence.md#overriding-rules) first.

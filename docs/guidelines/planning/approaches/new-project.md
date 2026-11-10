@@ -28,7 +28,7 @@ Put automated checks and a repeatable build in place first, so every later chang
 
 ### Decide early what is costly to change later
 
-Settle the data model, public contracts, and trust boundaries early, and leave cheap choices open. These are the decisions that cannot be revised cheaply.
+Settle the data model, public contracts, and trust boundaries early, and leave cheap choices open.
 
 ### Keep the structure as simple as the need
 
@@ -36,7 +36,7 @@ Start with the fewest parts that work and split where clear boundaries emerge. S
 
 ### Define a small first version
 
-State what is in the first version and what is not. A project with no edge never finishes.
+State what is in the first version and what is not. A project with no stated limits never finishes.
 
 ### Write the conventions down early
 

@@ -70,7 +70,7 @@ Scale effort to risk ([risk tiers](core/risk-tiers.md)). A small, low-risk chang
 
 ## Adopting
 
-1. Make this folder available in the repo. A symlink works: the folder is self-contained and read-only for consumers.
+1. Make this folder available in the repo. A symlink works. The folder is self-contained and read-only for consumers.
 2. Add one line to the repo's existing instruction or contributor file: "Follow the guidelines in `<path to this folder>`."
 
 Nothing else is required. To change a rule for your repo, see [overriding rules](core/precedence.md#overriding-rules).

@@ -16,7 +16,7 @@ Ship code switched off, then turn it on ([give flags an owner and an end](config
 
 ### Expose gradually when risk is high
 
-At High risk, expose a small share first and widen only after checking the signals. A small blast radius turns a failure into a minor incident.
+At High risk, expose a small share first and widen only after checking the signals. Few affected users keep a failure minor.
 
 ### Order dependent changes so any step can stop
 
