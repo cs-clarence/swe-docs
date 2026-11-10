@@ -8,6 +8,7 @@ How to decide what to do, and in what order, before building. Planning comes bef
 | [plan-a-change](plan-a-change.md) | When a plan is needed, what it contains, and how it is reviewed. |
 | [change-size](change-size.md) | How big a change should be and how to split it. |
 | [large-changes](large-changes.md) | Migrations and replacements in safe steps. |
+| [write-the-plan](write-the-plan.md) | What a written plan contains, and distilling it afterward. |
 | [break-down-work](break-down-work.md) | Splitting work into ordered, verifiable steps. |
 | [agents](agents.md) | Extra rules for agents that plan work. |
 

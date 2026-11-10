@@ -61,3 +61,4 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [threat-review](checks/threat-review.md) | 0 | 2 | 9 |
 | [time-and-numbers](checks/time-and-numbers.md) | 0 | 4 | 2 |
 | [ui-behavior](checks/ui/ui-behavior.md) | 0 | 8 | 1 |
+| [write-the-plan](checks/planning/write-the-plan.md) | 0 | 6 | 0 |

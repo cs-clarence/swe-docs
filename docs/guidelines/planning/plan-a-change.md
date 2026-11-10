@@ -8,7 +8,7 @@ Deciding what a change will do, how, and how it will be checked, before work sta
 
 ### Match the plan to the risk
 
-Plan in proportion to the [risk tier](../core/risk-tiers.md): none for Low, a few sentences for Medium, a written plan for High ([choose the approach](approaches/choose-the-approach.md)). Planning that costs more than the change protects against is waste.
+Plan in proportion to the [risk tier](../core/risk-tiers.md): none for Low, a few sentences for Medium, a written plan for High ([write the plan](write-the-plan.md), [choose the approach](approaches/choose-the-approach.md)). Planning that costs more than the change protects against is waste.
 
 ### State the goal and what done means
 

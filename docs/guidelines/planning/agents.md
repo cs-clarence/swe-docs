@@ -20,7 +20,7 @@ List open questions and put the ones where a wrong answer is costly to the user 
 
 ### Present the plan in a fixed shape
 
-State the goal, the approach, the steps, what is out of scope, the risks, how each step is verified, and how it is undone. Keep it short enough to read in one pass; detail scales with the risk tier.
+Cover the points in [write the plan](write-the-plan.md). State the goal, the approach, the steps, what is out of scope, the risks, how each step is verified, and how it is undone. Keep it short enough to read in one pass; detail scales with the risk tier.
 
 ### Wait for approval when the stakes require it
 
