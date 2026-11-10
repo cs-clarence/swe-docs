@@ -10,6 +10,7 @@ How to decide what to do, and in what order, before building. Planning comes bef
 | [large-changes](large-changes.md) | Migrations and replacements in safe steps. |
 | [write-the-plan](write-the-plan.md) | What a written plan contains, and distilling it afterward. |
 | [design-docs](design-docs.md) | When a design doc is worth writing, and what it holds. |
+| [ready-to-build](ready-to-build.md) | Deciding that a plan or design is ready to build from. |
 | [break-down-work](break-down-work.md) | Splitting work into ordered, verifiable steps. |
 | [agents](agents.md) | Extra rules for agents that plan work. |
 

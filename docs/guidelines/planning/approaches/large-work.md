@@ -10,6 +10,10 @@ Work across many components or involving many collaborators, or hard to undo, or
 
 Record the goal, the end state, the approach, the options rejected, and the risks before the first step ([plan a change](../plan-a-change.md), [decision records](../../core/decision-records.md)). Large work drifts without a stated destination.
 
+### Define an example that exercises the hard parts
+
+Write a worked example that covers the system's complexity and make working against it the goal ([define an example the finished work must handle](../plan-a-change.md#define-an-example-the-finished-work-must-handle)). Without one, each part can pass its own tests while the whole misses the point.
+
 ### Test the riskiest assumption first
 
 Run a prototype or a thin slice ([tackle the riskiest part first](../plan-a-change.md#tackle-the-riskiest-part-first)) through the part most likely to break the plan, and let the result change the plan. Finding the flaw after building around it is the costliest outcome.

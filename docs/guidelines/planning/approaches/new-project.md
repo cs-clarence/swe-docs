@@ -18,6 +18,10 @@ List what must be true for the project to work, and test the shakiest items with
 
 Pick well-understood tools and record the choice and the reasons ([decision records](../../core/decision-records.md)). Novelty costs time that does not go into the product.
 
+### Define an example that exercises the hard parts
+
+Write a worked example that covers the system's complexity, with the expected result, and use it as the target ([define an example the finished work must handle](../plan-a-change.md#define-an-example-the-finished-work-must-handle)). It gives the first slice and later features a shared definition of working.
+
 ### Build a thin end-to-end slice first
 
 Get one minimal path working through every layer, including build, test, release, and monitoring, before adding features. It exposes integration problems when they are cheap.

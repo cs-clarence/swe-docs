@@ -20,7 +20,7 @@ Otherwise put the design in the plan, or skip the plan ([match the plan to the r
 
 ### Cover the design, not the steps
 
-State the problem and its constraints, the proposed design, the alternatives rejected and why, the interfaces and data, how it fails, how it is tested and rolled out, and what is still open. Leave step ordering and progress to the plan ([break down work](break-down-work.md)).
+State the problem and its constraints, the proposed design, a worked example that exercises the hard parts ([define an example the finished work must handle](plan-a-change.md#define-an-example-the-finished-work-must-handle)), the alternatives rejected and why, the interfaces and data, how it fails, how it is tested and rolled out, and what is still open. Leave step ordering and progress to the plan ([break down work](break-down-work.md)).
 
 ### Settle the design before building on it
 
