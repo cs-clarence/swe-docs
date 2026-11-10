@@ -1,6 +1,6 @@
 # Reviewing
 
-How to evaluate a change. Rules live in [authoring](../authoring/README.md); reviewing adds process and checks that link to them. Shared terms and tiers are in [core](../core/README.md).
+How to evaluate a change. Rules live in [authoring](../authoring/README.md); reviewing adds process and checks that link to them. Shared terms and tiers are in [core](../core/README.md). Plans can be reviewed before any code exists, using the [planning checks](checks/planning/plan-a-change.md), including [for agents](checks/planning/agents.md).
 
 | File | Covers |
 | --- | --- |

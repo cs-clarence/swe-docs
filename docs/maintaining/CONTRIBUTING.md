@@ -9,7 +9,7 @@ For people editing `docs/guidelines/`. This folder is not shipped with the guide
 - **Relative links inside the folder only.** No absolute paths, no links out. It must work under any path.
 - **Self-contained files.** Each states its scope.
 - **Authoring holds rules; reviewing links to them.** Never restate a rule; link to its heading.
-- **Core links to nothing above it. Authoring never links to reviewing** (except `authoring/README.md`).
+- **Core links to nothing above it. Planning links only to core. Authoring never links to reviewing** (except `authoring/README.md`).
 - **Test for any rule:** would a reasonable team in another language and workflow object? If yes, it belongs in repo docs.
 
 ## Headings are public
@@ -18,7 +18,7 @@ Consumers reference rules by file and heading. Renaming or removing a heading, o
 
 ## Every authoring topic has a matching checks file
 
-Add `reviewing/checks/<topic>.md` when adding `authoring/<topic>.md`.
+Add `reviewing/checks/<topic>.md` when adding `authoring/<topic>.md`, or `reviewing/checks/planning/<topic>.md` for `planning/<topic>.md`.
 
 ## Writing style: concise but lossless
 

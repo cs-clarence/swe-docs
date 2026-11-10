@@ -28,7 +28,7 @@ Say where you are least sure and what you did not verify, so reviewer attention 
 
 ### Split what is too big
 
-If the change has several purposes or is hard to hold in mind, split it ([change size](change-size.md)).
+If the change has several purposes or is hard to hold in mind, split it ([change size](../planning/change-size.md)).
 
 ## Exceptions
 

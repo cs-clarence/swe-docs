@@ -20,14 +20,14 @@ projections:
     rev: main # pin a tag or commit to control when updates arrive
 ```
 
-To install only some areas, set `routes` on the source to the areas you want. Reviewing links to authoring, and authoring links to core, so drop areas from the top down. See the [projection schema](https://github.com/omni-oss/json-schemas/blob/main/projection.json) for the fields.
+To install only some areas, set `routes` on the source to the areas you want. Reviewing links to authoring and planning, authoring links to planning and core, and planning links to core, so drop areas from the top down. See the [projection schema](https://github.com/omni-oss/json-schemas/blob/main/projection.json) for the fields.
 
 By default, `omni ignore sync` adds every projection link to your ignore files. Set `ignore.sources.projections` to `false` in the workspace configuration if you want the links tracked.
 
 ### Manually
 
 1. Copy or symlink `docs/guidelines` into your repository, for example to `docs/guidelines`.
-2. To use only part of it, keep `README.md` and `core/`, then add `authoring/` and `reviewing/` as needed.
+2. To use only part of it, keep `README.md` and `core/`, then add `planning/`, `authoring/` and `reviewing/` as needed.
 3. Treat the folder as read-only. To change a rule for your repository, write an [override](docs/guidelines/core/precedence.md#overriding-rules) in your own files.
 
 A copy does not update by itself. Re-copy to get changes, and check the [changelog](docs/guidelines/CHANGELOG.md) for renamed headings that your overrides link to.

@@ -16,7 +16,7 @@ Read the code, its callers, and its tests, and confirm current behavior before e
 
 ### Define the scope
 
-State what the change must achieve and what it will not touch. If the goal is ambiguous and a wrong guess is costly, ask; otherwise state the assumption and proceed.
+State what the change must achieve and what it will not touch ([plan a change](../planning/plan-a-change.md)). If the goal is ambiguous and a wrong guess is costly, ask; otherwise state the assumption and proceed.
 
 ### Make the smallest sufficient change
 
@@ -24,7 +24,7 @@ Change only what the goal requires. Fix the cause, not the symptom, unless a sto
 
 ### Separate unrelated work
 
-Do not mix refactors, formatting, or fixes for other problems into the change. Mention them instead. Mixed changes are hard to review and hard to undo.
+Do not mix refactors, formatting, or fixes for other problems into the change ([change size](../planning/change-size.md)). Mention them instead. Mixed changes are hard to review and hard to undo.
 
 ### Preserve behavior in refactors
 

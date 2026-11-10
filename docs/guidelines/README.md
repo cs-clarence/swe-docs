@@ -7,21 +7,25 @@ General guidelines for writing and reviewing code, for humans and agents. Langua
 | Area | Use it when |
 | --- | --- |
 | [core/](core/README.md) | Always. Shared principles, vocabulary, risk tiers, precedence. |
+| [planning/](planning/README.md) | Deciding what to do and in what order, before building. |
 | [authoring/](authoring/README.md) | Writing or changing code. Contains the rules. |
 | [reviewing/](reviewing/README.md) | Evaluating a change. Checks that link back to the authoring rules. |
 
-Links point one way: reviewing → authoring → core.
+Links point one way: reviewing → authoring → planning → core. The usual order of use is planning, authoring, reviewing.
 
 ## Which files apply
 
 | Task | Read |
 | --- | --- |
+| Choosing an approach for a fix, feature, large change, or new project | [choose-the-approach](planning/approaches/choose-the-approach.md) |
+| Planning a change or breaking down work | [plan-a-change](planning/plan-a-change.md), [break-down-work](planning/break-down-work.md) |
+| Reviewing a plan | [plan-a-change checks](reviewing/checks/planning/plan-a-change.md), [break-down-work checks](reviewing/checks/planning/break-down-work.md) |
 | Any change | [principles](core/principles.md), [approach](authoring/approach.md) |
 | Finding and fixing a defect | [debugging-and-bug-fixing](authoring/debugging-and-bug-fixing.md) |
 | Shipping and undoing a change | [releases-and-rollback](authoring/releases-and-rollback.md) |
 | Login, sessions, deleting data | [authentication-and-sessions](authoring/security/authentication-and-sessions.md), [data-retention-and-deletion](authoring/security/data-retention-and-deletion.md) |
 | Test doubles, test data, unreliable tests | [test-doubles-and-data](authoring/testing/test-doubles-and-data.md), [flaky-tests](authoring/testing/flaky-tests.md) |
-| Migrating or replacing a large piece | [large-changes](authoring/structure/large-changes.md) |
+| Migrating or replacing a large piece | [large-changes](planning/large-changes.md) |
 | Generated or copied-in code | [generated-and-vendored-code](authoring/generated-and-vendored-code.md) |
 | Knowing when a change is done | [core/definition-of-done](core/definition-of-done.md) |
 | System or component structure | [architecture](authoring/structure/architecture.md) |
@@ -54,10 +58,11 @@ Links point one way: reviewing → authoring → core.
 | GUI accessibility and translation | [accessibility-and-i18n](authoring/ui/accessibility-and-i18n.md) |
 | User-facing or external docs | [documentation](authoring/documentation.md) |
 | Recording a significant decision | [decision-records](core/decision-records.md) |
+| Agent planning work | [planning/agents](planning/agents.md) |
 | Agent writing code | [authoring/agents](authoring/agents.md) |
 | Reviewing a change | [reviewing/process](reviewing/process.md), then the matching [checks](reviewing/checks) |
 | Self-reviewing before asking for review | [self-review](authoring/self-review.md) |
-| Deciding how big a change should be | [change-size](authoring/change-size.md) |
+| Deciding how big a change should be | [change-size](planning/change-size.md) |
 | Reviewing a high-risk security change | [threat-review](reviewing/checks/threat-review.md) |
 | Reviewing agent output | [reviewing/agents](reviewing/agents.md) |
 

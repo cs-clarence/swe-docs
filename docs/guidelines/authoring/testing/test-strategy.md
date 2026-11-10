@@ -28,7 +28,7 @@ Keep higher-level tests few, for critical paths only. The reason and the method 
 
 ### Name tests by what they exercise
 
-Organizations name test kinds differently. Classify by what a test exercises, not its label. If the repository has its own names, map them to the levels and kinds below and use the repository's names in code.
+Projects name test kinds differently. Classify by what a test exercises, not its label. If the repository has its own names, map them to the levels and kinds below and use the repository's names in code.
 
 ## Test levels
 
@@ -42,8 +42,8 @@ Organizations name test kinds differently. Classify by what a test exercises, no
 
 Notes:
 
-- **Service versus end-to-end.** If a service's product is an API, testing that API through its public interface is that product's end-to-end test. Many organizations still separate them: service tests cover one service; end-to-end tests span several. Follow the repository's split and name it.
-- **"Component test" is ambiguous.** It means a service in isolation in some organizations and a group of integrated parts in others. Check what the repository means.
+- **Service versus end-to-end.** If a service's product is an API, testing that API through its public interface is that product's end-to-end test. Many projects still separate them: service tests cover one service; end-to-end tests span several. Follow the repository's split and name it.
+- **"Component test" is ambiguous.** It means a service in isolation in some projects and a group of integrated parts in others. Check what the repository means.
 
 ## Matrix
 

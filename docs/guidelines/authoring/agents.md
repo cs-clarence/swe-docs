@@ -2,7 +2,7 @@
 
 ## Scope
 
-Additional rules for AI or automated agents authoring changes. Agents also follow every other authoring guideline and [precedence](../core/precedence.md), including [check local rules first](approach.md#check-local-rules-first) and [define the scope](approach.md#define-the-scope) (ask or state assumptions).
+Additional rules for AI or automated agents authoring changes. Agents also follow every other authoring guideline and [precedence](../core/precedence.md), including [check local rules first](approach.md#check-local-rules-first) and [define the scope](approach.md#define-the-scope) (ask or state assumptions). Planning rules for agents are in [planning for agents](../planning/agents.md).
 
 ## Guidelines
 

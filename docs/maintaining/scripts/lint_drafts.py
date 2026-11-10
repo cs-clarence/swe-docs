@@ -19,7 +19,10 @@ for f in sorted(glob.glob("authoring/**/*.md", recursive=True)):
         continue
     if not os.path.exists("reviewing/checks/" + f[len("authoring/"):]):
         print("NO CHECKS", f); bad += 1
-for readme_path in sorted(glob.glob("*/README.md") + glob.glob("authoring/*/README.md")):
+for f in sorted(glob.glob("planning/**/*.md", recursive=True)):
+    if os.path.basename(f) != "README.md" and not os.path.exists("reviewing/checks/" + f):
+        print("NO CHECKS", f); bad += 1
+for readme_path in sorted(glob.glob("*/README.md") + glob.glob("authoring/*/README.md") + glob.glob("planning/*/README.md")):
     d = os.path.dirname(readme_path)
     readme = open(readme_path).read()
     for f in glob.glob(f"{d}/*.md"):

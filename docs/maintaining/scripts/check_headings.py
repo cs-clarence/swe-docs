@@ -2,7 +2,7 @@
 """Flag headings removed or renamed since a git ref that CHANGELOG.md does not mention.
 
 Usage: python3 docs/maintaining/scripts/check_headings.py [ref]   (default: HEAD)
-Run from the repository root. Exits 1 if any removed heading is unrecorded.
+Run from the repository root. Exits 1 if any removed heading is unrecorded. A removed or moved file counts as recorded when the changelog names its old path.
 """
 import re, subprocess, sys
 
@@ -19,6 +19,8 @@ for f in files:
         new = open(f).read()
     except FileNotFoundError:
         new = ""
+        if f[len(base) + 1:].lower() in changelog:
+            continue
     old_h = set(re.findall(r"^#{2,3}\s+(.*)$", old, re.M))
     new_h = set(re.findall(r"^#{2,3}\s+(.*)$", new, re.M))
     for h in sorted(old_h - new_h):

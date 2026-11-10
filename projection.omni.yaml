@@ -2,7 +2,7 @@
 name: swe-docs-guidelines
 description: Coding guidelines for authoring and reviewing changes. Links each area of docs/guidelines into a consuming repository.
 
-# One rule per area. Reviewing links to authoring, and authoring links to core.
+# One rule per area. Reviewing links to authoring and planning, authoring links to planning and core, and planning links to core.
 routes:
   - strategy: explicit
     link: symlink
@@ -14,6 +14,8 @@ routes:
         dest: docs/guidelines/CHANGELOG.md
       - source: docs/guidelines/core
         dest: docs/guidelines/core
+      - source: docs/guidelines/planning
+        dest: docs/guidelines/planning
       - source: docs/guidelines/authoring
         dest: docs/guidelines/authoring
       - source: docs/guidelines/reviewing

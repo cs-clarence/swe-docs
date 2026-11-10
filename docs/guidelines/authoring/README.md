@@ -1,12 +1,11 @@
 # Authoring
 
-Rules for writing and changing code. Start with [core principles](../core/principles.md). Scale effort with [risk tiers](../core/risk-tiers.md). Reviewers verify these rules using [reviewing](../reviewing/README.md).
+Rules for writing and changing code. Start with [core principles](../core/principles.md). Scale effort with [risk tiers](../core/risk-tiers.md). Plan first with [planning](../planning/README.md). Reviewers verify these rules using [reviewing](../reviewing/README.md).
 
 | File | Covers |
 | --- | --- |
 | [approach](approach.md) | Understand, scope, implement, verify, explain. |
 | [self-review](self-review.md) | What an author checks before asking for review. |
-| [change-size](change-size.md) | How big a change should be and how to split it. |
 | [debugging-and-bug-fixing](debugging-and-bug-fixing.md) | Reproduce, find the cause, test, look elsewhere. |
 | [releases-and-rollback](releases-and-rollback.md) | Reversible, staged, observable releases. |
 | [generated-and-vendored-code](generated-and-vendored-code.md) | Editing, marking, and updating generated and copied code. |

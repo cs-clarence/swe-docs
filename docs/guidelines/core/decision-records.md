@@ -20,7 +20,7 @@ Say what becomes harder, and what would make the decision worth revisiting.
 
 ### Keep records next to the work and do not edit history
 
-Store records where the team keeps its documentation. Supersede an outdated record with a new one that links to it, so the history stays readable.
+Store records where the project keeps its documentation. Supersede an outdated record with a new one that links to it, so the history stays readable.
 
 ## Exceptions
 
