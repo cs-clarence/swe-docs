@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/omni-oss/json-schemas/main/projection.json
+name: swe-docs-guidelines
+description: Coding guidelines for authoring and reviewing changes. Links each area of docs/guidelines into a consuming repository.
+
+# One rule per area. Reviewing links to authoring, and authoring links to core.
+routes:
+  - strategy: explicit
+    link: symlink
+    on_existing: error
+    rules:
+      - source: docs/guidelines/README.md
+        dest: docs/guidelines/README.md
+      - source: docs/guidelines/CHANGELOG.md
+        dest: docs/guidelines/CHANGELOG.md
+      - source: docs/guidelines/core
+        dest: docs/guidelines/core
+      - source: docs/guidelines/authoring
+        dest: docs/guidelines/authoring
+      - source: docs/guidelines/reviewing
+        dest: docs/guidelines/reviewing
