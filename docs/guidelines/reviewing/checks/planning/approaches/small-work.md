@@ -8,7 +8,7 @@ Verifies [planning/approaches/small-work](../../../../planning/approaches/small-
 | Is the intent clear in a sentence or two? | [plan in a sentence](../../../../planning/approaches/small-work.md#plan-in-a-sentence) | Low |
 | Does the change have one purpose? | [make one change with one purpose](../../../../planning/approaches/small-work.md#make-one-change-with-one-purpose) | Low |
 | Is there a check that fails without the change? | [check it with something that would fail without it](../../../../planning/approaches/small-work.md#check-it-with-something-that-would-fail-without-it) | Medium |
-| Was the change escalated when it outgrew its kind? | [escalate when it grows](../../../../planning/approaches/small-work.md#escalate-when-it-grows) | Medium |
+| Was the change moved up a kind when it outgrew its kind? | [move up a kind when it grows](../../../../planning/approaches/small-work.md#move-up-a-kind-when-it-grows) | Medium |
 
 ## Blocking
 

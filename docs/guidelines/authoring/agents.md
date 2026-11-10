@@ -20,7 +20,7 @@ Deleting data, rewriting history, running costly or external operations, or chan
 
 ### Do not bypass safeguards
 
-Do not disable tests, linters, hooks, or permissions to get a result. If a safeguard blocks you, report it.
+Do not disable tests, linters, hooks, or permissions to get a result. If a safeguard blocks you, report it ([ask with a short summary](../core/when-to-ask.md#ask-with-a-short-summary)).
 
 ### Verify, then claim
 

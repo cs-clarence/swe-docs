@@ -16,7 +16,7 @@ Base the plan on code, documents, and results you have read, and mark each claim
 
 ### Ask instead of guessing
 
-List open questions and put the ones where a wrong answer is costly to the user before presenting the plan. Do not fill gaps in the request with invented requirements.
+List open questions and put the ones where a wrong answer is costly to the user before presenting the plan. Do not fill gaps in the request with invented requirements. Decide small, reversible matters yourself ([decide small things and say so](../core/when-to-ask.md#decide-small-things-and-say-so)).
 
 ### Present the plan in a fixed shape
 
@@ -32,7 +32,7 @@ Plan only what was asked. List related problems you noticed as separate items fo
 
 ### Stop and re-plan when work diverges
 
-If a step fails, an assumption proves wrong, or the scope grows, pause, say what changed, and revise the plan before continuing. Report the revision; do not absorb it silently.
+If a step fails, an assumption proves wrong, or the scope grows, pause, say what changed, and revise the plan before continuing. Report the revision; do not absorb it silently. When the divergence meets a trigger, [stop and ask](../core/when-to-ask.md#stop-and-ask-when-the-work-is-bigger-or-different-than-agreed).
 
 ### Leave a plan another agent can resume
 

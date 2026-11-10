@@ -22,9 +22,9 @@ Do only the fix or the feature. Note other problems you see instead of fixing th
 
 Run or add a check that fails before the change and passes after. Without that, you do not know the change does anything.
 
-### Escalate when it grows
+### Move up a kind when it grows
 
-If the change reaches a contract, data, or a second component, or takes much longer than expected, stop and treat it as a [medium work](medium-work.md).
+If the change reaches a contract, data, or a second component, or takes much longer than expected, stop and treat it as a [medium work](medium-work.md). If it also meets a [trigger to ask](../../core/when-to-ask.md#stop-and-ask-when-the-work-is-bigger-or-different-than-agreed), stop and ask.
 
 ## Exceptions
 

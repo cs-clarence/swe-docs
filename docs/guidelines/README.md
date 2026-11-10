@@ -2,6 +2,8 @@
 
 General guidelines for writing and reviewing code, for humans and agents. Language-, tool-, and workflow-neutral.
 
+The aim is to work autonomously without going off the rails. Code is a means to an end, and it has to stay maintainable as the project grows. When the work turns out bigger than expected, or not as designed, [stop and ask](core/when-to-ask.md).
+
 ## Layout
 
 | Area | Use it when |
@@ -20,6 +22,7 @@ Links point one way: reviewing → authoring → planning → core. The usual or
 | Choosing an approach for a fix, feature, large change, or new project | [choose-the-approach](planning/approaches/choose-the-approach.md) |
 | Planning a change or breaking down work | [plan-a-change](planning/plan-a-change.md), [break-down-work](planning/break-down-work.md) |
 | Reviewing a plan | [plan-a-change checks](reviewing/checks/planning/plan-a-change.md), [break-down-work checks](reviewing/checks/planning/break-down-work.md) |
+| Work turned out bigger than expected or not as designed | [when-to-ask](core/when-to-ask.md) |
 | Any change | [principles](core/principles.md), [approach](authoring/approach.md) |
 | Finding and fixing a defect | [debugging-and-bug-fixing](authoring/debugging-and-bug-fixing.md) |
 | Shipping and undoing a change | [releases-and-rollback](authoring/releases-and-rollback.md) |

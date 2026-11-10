@@ -22,9 +22,9 @@ Decide how the parts connect before building either side. Changing a contract af
 
 Order the steps by dependency and risk, with preparation first ([break down work](../break-down-work.md)). Each step should be judged as one unit and checked before the next begins.
 
-### Escalate when it grows
+### Move up a kind when it grows
 
-If the work reaches a contract, persistent data, or many components, or cannot be undone cheaply, treat it as a [large work](large-work.md).
+If the work reaches a contract, persistent data, or many components, or cannot be undone cheaply, treat it as a [large work](large-work.md). If it also meets a [trigger to ask](../../core/when-to-ask.md#stop-and-ask-when-the-work-is-bigger-or-different-than-agreed), stop and ask.
 
 ## Exceptions
 
