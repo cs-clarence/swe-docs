@@ -25,4 +25,6 @@ jobs:
           git diff --exit-code docs/guidelines/reviewing/by-tier.md
       - name: Headings removed or renamed are in the changelog
         if: github.event_name == 'pull_request'
-        run: python3 docs/maintaining/scripts/check_headings.py "origin/${{ github.base_ref }}"
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: python3 docs/maintaining/scripts/check_headings.py "origin/$BASE_REF"
