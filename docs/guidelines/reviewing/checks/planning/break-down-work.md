@@ -14,4 +14,4 @@ Verifies [planning/break-down-work](../../../planning/break-down-work.md). Tier 
 
 ## Blocking
 
-At High risk, a breakdown with a step that leaves the system broken and no stated reason goes back to the author. Others are should fix. Finding classes are in [process](../../process.md#classify-each-finding).
+At High risk, a breakdown with a step that leaves the system broken and is not grouped with the steps it needs goes back to the author. Others are should fix. Finding classes are in [process](../../process.md#classify-each-finding).

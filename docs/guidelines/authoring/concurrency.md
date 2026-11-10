@@ -32,4 +32,4 @@ Limit concurrent work and queue length so load cannot exhaust resources.
 
 ## Exceptions
 
-Single-threaded scripts need none of this.
+Sequential single-threaded scripts need no synchronization. A script that interleaves tasks, or waits on another party, still needs the rules above, including timeouts.

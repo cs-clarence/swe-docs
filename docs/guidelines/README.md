@@ -80,6 +80,6 @@ Nothing else is required. To change a rule for your repo, see [overriding rules]
 
 ## Using subsets
 
-Each file states its own scope. A repo may use only `core/` and `authoring/`, or drop files for areas it doesn't need.
+Each file states its own scope. A repo may use only `core/` and `authoring/`, or drop files for areas it doesn't need. The indexes, including `core/README.md`, link to every area. In a subset install, delete the rows that point to omitted areas, or read the files directly.
 
 See [CHANGELOG](CHANGELOG.md) for renamed or changed rules.

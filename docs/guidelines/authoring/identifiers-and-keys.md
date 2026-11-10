@@ -40,7 +40,7 @@ For any key (cache, map, lookup, idempotency, partition), state what it is made 
 
 ### Make cache and idempotency keys cover every input that changes the result
 
-Include all inputs that affect the result, such as user, version, and parameters. A key missing one returns another caller's or an outdated result. For when operations need an idempotency key, see [make retried operations safe](interfaces-and-compatibility.md#make-retried-operations-safe).
+Include all inputs that affect the result, such as user, version, and parameters. A key missing one returns another caller's or an outdated result. An idempotency key identifies the operation, not its result: use the caller's token as the identity, store the request's parameters or a fingerprint with it, and reject reuse of the token with different parameters. Putting the parameters in the lookup key would run a changed request as a new one. For when operations need an idempotency key, see [make retried operations safe](interfaces-and-compatibility.md#make-retried-operations-safe).
 
 ## Examples
 

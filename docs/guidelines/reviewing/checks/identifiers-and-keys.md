@@ -12,8 +12,8 @@ Verifies [authoring/identifiers-and-keys](../../authoring/identifiers-and-keys.m
 | Do identifiers avoid exposing counts, order, or personal data? | [do not leak information through identifiers](../../authoring/identifiers-and-keys.md#do-not-leak-information-through-identifiers) | Medium |
 | Is there one external identifier per entity? | [use one identifier form per entity across boundaries](../../authoring/identifiers-and-keys.md#use-one-identifier-form-per-entity-across-boundaries) | Medium |
 | Are key composition, normalization, and collisions defined? | [define key behavior where keys are used](../../authoring/identifiers-and-keys.md#define-key-behavior-where-keys-are-used) | Medium |
-| Does the key include every input that changes the result? | [make cache and idempotency keys cover every input that changes the result](../../authoring/identifiers-and-keys.md#make-cache-and-idempotency-keys-cover-every-input-that-changes-the-result) | High |
+| Do cache keys include every input that changes the result, and do idempotency keys reject reuse with different parameters? | [make cache and idempotency keys cover every input that changes the result](../../authoring/identifiers-and-keys.md#make-cache-and-idempotency-keys-cover-every-input-that-changes-the-result) | High |
 
 ## Blocking
 
-Blocking: reused or changing identifiers that others reference, access granted by an unguessable identifier alone, and cache or idempotency keys that omit an input affecting the result. Others are should fix.
+Blocking: reused or changing identifiers that others reference, access granted by an unguessable identifier alone, and cache keys that omit an input affecting the result, and idempotency keys that accept reuse with different parameters. Others are should fix.

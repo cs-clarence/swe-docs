@@ -18,7 +18,7 @@ Higher sources win. A higher source that is silent leaves lower ones in force.
 
 This folder may be read-only for the consuming repository, so overrides live in the repository's own files, at a path it chooses and references from its existing instruction file. Overrides are optional; without them the baseline applies.
 
-Each override names the rule (file and heading), an action, and a reason.
+Each override names the rule (file and heading), an action, a reason, and the effective rule, meaning what applies instead of the baseline.
 
 | Action | Effect |
 | --- | --- |
@@ -34,6 +34,7 @@ Example entry:
 - rule: authoring/testing/testing.md#cover-regressions
   action: relax
   scope: generated/**                   # optional: paths or areas
+  effective: no regression tests for generated files; the generator's own tests must pass
   reason: generated code is verified by its generator's tests
   expires: when the generator is replaced   # optional
 ```

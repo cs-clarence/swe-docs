@@ -6,13 +6,13 @@ Verifies [planning/plan-a-change](../../../planning/plan-a-change.md). Use these
 | --- | --- | --- |
 | Is the plan sized to the risk tier? | [match the plan to the risk](../../../planning/plan-a-change.md#match-the-plan-to-the-risk) | Medium |
 | Are the goal, finish line, and out-of-scope items stated? | [state the goal and what done means](../../../planning/plan-a-change.md#state-the-goal-and-what-done-means) | Medium |
-| For a new system or large feature, is there a worked example covering the happy path, complexities, and edge cases, with the expected result stated? | [define an example the finished work must handle](../../../planning/plan-a-change.md#define-an-example-the-finished-work-must-handle) | High |
+| For a new system or large feature, is there a worked example covering the happy path, complexities, and edge cases, with the expected result stated? | [define an example the finished work must handle](../../../planning/plan-a-change.md#define-an-example-the-finished-work-must-handle) | Medium |
 | Are assumptions and open questions listed, with costly ones raised? | [list assumptions and open questions](../../../planning/plan-a-change.md#list-assumptions-and-open-questions) | Medium |
 | Are affected components, callers, data, and users named? | [find what the change touches](../../../planning/plan-a-change.md#find-what-the-change-touches) | Medium |
 | Were options compared and the choice reasoned for costly decisions? | [compare options before choosing](../../../planning/plan-a-change.md#compare-options-before-choosing) | High |
 | Is the riskiest part identified and tested early? | [tackle the riskiest part first](../../../planning/plan-a-change.md#tackle-the-riskiest-part-first) | High |
 | Are verification and undo planned? | [plan verification and undo](../../../planning/plan-a-change.md#plan-verification-and-undo) | Medium |
-| Was the plan reviewed by someone else before building? | [get the plan reviewed before building](../../../planning/plan-a-change.md#get-the-plan-reviewed-before-building) | High |
+| Was the plan reviewed by a collaborator, or re-read after a break when working alone? | [get the plan reviewed before building](../../../planning/plan-a-change.md#get-the-plan-reviewed-before-building) | High |
 | Was the plan revised when facts changed? | [update the plan when facts change](../../../planning/plan-a-change.md#update-the-plan-when-facts-change) | Medium |
 
 ## Blocking

@@ -8,7 +8,7 @@ Representing and computing with dates, times, durations, money, units, and numer
 
 ### Store and exchange time in an unambiguous form
 
-Use a single standard representation, such as UTC with an offset or zone, and convert only for display. Local times without a zone are ambiguous.
+Use a single standard representation, such as UTC with an offset or zone, and convert only for display. Local times without a zone are ambiguous. For a future or recurring local-time schedule, keep the named zone and the recurrence rule as well, since an offset can change across daylight-saving transitions.
 
 ### Separate instants, durations, and calendar dates
 

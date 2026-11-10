@@ -16,4 +16,4 @@ Verifies [authoring/releases-and-rollback](../../authoring/releases-and-rollback
 
 ## Blocking
 
-Blocking: a High-risk release with no way to undo it, and a rollback that loses data. Others are should fix.
+Blocking: a High-risk release with no way to undo it and no stated reason and alternative, and a rollback that loses data. Others are should fix.

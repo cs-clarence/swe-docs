@@ -8,7 +8,8 @@ Verifies [planning/agents](../../../planning/agents.md). Tier = lowest [risk tie
 | Are plan claims marked as observed or assumed, with evidence for the observed ones? | [ground the plan in what you observed](../../../planning/agents.md#ground-the-plan-in-what-you-observed) | Medium |
 | Were costly open questions put to the user instead of guessed? | [ask instead of guessing](../../../planning/agents.md#ask-instead-of-guessing) | Medium |
 | Does the plan state goal, approach, steps, scope limit, risks, verification, and undo? | [present the plan in a fixed shape](../../../planning/agents.md#present-the-plan-in-a-fixed-shape) | Medium |
-| Did the agent wait for approval at High risk or when going beyond the request? | [wait for approval when the stakes require it](../../../planning/agents.md#wait-for-approval-when-the-stakes-require-it) | High |
+| At High risk, did the agent wait for explicit approval before proceeding? | [wait for approval when the stakes require it](../../../planning/agents.md#wait-for-approval-when-the-stakes-require-it) | High |
+| If the plan went beyond the request, did the agent get approval first? | [wait for approval when the stakes require it](../../../planning/agents.md#wait-for-approval-when-the-stakes-require-it) | Low |
 | Is the plan limited to the request, with related problems listed separately? | [do not widen the request](../../../planning/agents.md#do-not-widen-the-request) | Low |
 | Was a divergence reported and the plan revised? | [stop and re-plan when work diverges](../../../planning/agents.md#stop-and-re-plan-when-work-diverges) | Medium |
 | Can another agent resume from the recorded plan and progress? | [leave a plan another agent can resume](../../../planning/agents.md#leave-a-plan-another-agent-can-resume) | Medium |
@@ -16,4 +17,4 @@ Verifies [planning/agents](../../../planning/agents.md). Tier = lowest [risk tie
 
 ## Blocking
 
-At High risk, an agent that changed things before approval, or went beyond the request without asking, goes back to the author. Agent claims are verified as in [reviewing agents](../../agents.md). Others are should fix. Finding classes are in [process](../../process.md#classify-each-finding).
+At High risk, an agent that changed things before approval goes back to the author. At any tier, so does an agent that went beyond the request without asking. Agent claims are verified as in [reviewing agents](../../agents.md). Others are should fix. Finding classes are in [process](../../process.md#classify-each-finding).

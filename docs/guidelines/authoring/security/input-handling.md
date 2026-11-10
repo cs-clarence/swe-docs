@@ -64,7 +64,7 @@ Apply these rules to files, messages from other systems, environment variables, 
 | --- | --- |
 | A date string in a request | Parse into a date type at the boundary. Check that it is not in the past where the booking rule lives. |
 | An email field | Syntactic: it looks like an address, checked at the boundary. Semantic: it is not already registered, checked in the registration logic. |
-| A file path from a user | Resolve to a canonical path, then check it is inside the allowed directory, then open it. |
+| A file path from a user | Resolve to a canonical path, check it is inside the allowed directory, then open that resolved path without following links, so it cannot change between the check and the open. |
 | A search term used in a query | Pass it as a query parameter, never joined into the query text. |
 
 ## Exceptions

@@ -14,7 +14,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | --- | --- | --- | --- |
 | [abstraction](checks/structure/abstraction.md) | 3 | 8 | 0 |
 | [accessibility-and-i18n](checks/ui/accessibility-and-i18n.md) | 1 | 4 | 0 |
-| [agents](checks/planning/agents.md) | 1 | 7 | 1 |
+| [agents](checks/planning/agents.md) | 2 | 7 | 1 |
 | [approach](checks/approach.md) | 6 | 2 | 0 |
 | [architecture](checks/structure/architecture.md) | 0 | 10 | 3 |
 | [authentication-and-sessions](checks/security/authentication-and-sessions.md) | 0 | 2 | 8 |
@@ -41,14 +41,14 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [input-handling](checks/security/input-handling.md) | 1 | 6 | 4 |
 | [interfaces-and-compatibility](checks/interfaces-and-compatibility.md) | 1 | 4 | 2 |
 | [large-changes](checks/planning/large-changes.md) | 0 | 2 | 2 |
-| [large-work](checks/planning/approaches/large-work.md) | 0 | 0 | 6 |
+| [large-work](checks/planning/approaches/large-work.md) | 0 | 1 | 5 |
 | [medium-work](checks/planning/approaches/medium-work.md) | 0 | 5 | 0 |
 | [modularity](checks/structure/modularity.md) | 1 | 9 | 1 |
-| [new-project](checks/planning/approaches/new-project.md) | 1 | 6 | 3 |
+| [new-project](checks/planning/approaches/new-project.md) | 1 | 7 | 2 |
 | [observability](checks/observability.md) | 2 | 3 | 0 |
 | [output-handling](checks/security/output-handling.md) | 1 | 3 | 1 |
 | [performance](checks/performance.md) | 1 | 5 | 0 |
-| [plan-a-change](checks/planning/plan-a-change.md) | 0 | 6 | 4 |
+| [plan-a-change](checks/planning/plan-a-change.md) | 0 | 7 | 3 |
 | [ready-to-build](checks/planning/ready-to-build.md) | 0 | 5 | 4 |
 | [refactoring](checks/structure/refactoring.md) | 3 | 3 | 0 |
 | [releases-and-rollback](checks/releases-and-rollback.md) | 1 | 4 | 4 |

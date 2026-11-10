@@ -17,4 +17,4 @@ Verifies [authoring/error-handling](../../authoring/error-handling.md). Tier = l
 
 ## Blocking
 
-Blocking: swallowed failures that can affect correctness, leaked resources, unbounded retries of non-repeatable operations, and secrets in errors. Message wording is optional.
+Blocking: swallowed failures that can affect correctness, leaked resources, retries of non-repeatable operations that are not made safe, unbounded retries, and secrets in errors. Message wording is optional.

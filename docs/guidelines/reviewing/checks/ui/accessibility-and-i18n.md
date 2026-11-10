@@ -12,4 +12,4 @@ Verifies [authoring/accessibility-and-i18n](../../../authoring/ui/accessibility-
 
 ## Blocking
 
-Blocking: functions unreachable without a pointer, where the audience requires access. Others are should fix.
+Blocking: functions that keyboard or assistive-technology users cannot use, where the audience requires access. Others are should fix.
