@@ -31,6 +31,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [database-keys](checks/database/database-keys.md) | 0 | 4 | 1 |
 | [debugging-and-bug-fixing](checks/debugging-and-bug-fixing.md) | 3 | 4 | 0 |
 | [dependencies](checks/dependencies.md) | 2 | 3 | 0 |
+| [design-docs](checks/planning/design-docs.md) | 0 | 4 | 1 |
 | [design](checks/structure/design.md) | 0 | 4 | 1 |
 | [documentation](checks/documentation.md) | 4 | 2 | 0 |
 | [error-handling](checks/error-handling.md) | 1 | 8 | 1 |

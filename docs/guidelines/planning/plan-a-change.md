@@ -24,7 +24,7 @@ Name the components, callers, data, and users the change can affect before choos
 
 ### Compare options before choosing
 
-For a decision that is costly to reverse, list at least two options with their costs, choose one, and give the reason ([decision records](../core/decision-records.md)). For a routine choice, pick the simplest option that meets the goal.
+For a decision that is costly to reverse, list at least two options with their costs, choose one, and give the reason (a [design doc](design-docs.md) when the design is the hard part) ([decision records](../core/decision-records.md)). For a routine choice, pick the simplest option that meets the goal.
 
 ### Tackle the riskiest part first
 
