@@ -20,15 +20,7 @@ Decide how the parts connect before building either side. Changing a contract af
 
 ### Break it into two to five reviewable steps
 
-Order the steps by dependency and risk, with preparation first ([break down work](../break-down-work.md)). Each step should be judged as one unit.
-
-### Verify each step as you go
-
-Check each step before starting the next, so a fault is found where it was introduced. Testing only at the end makes the cause hard to find.
-
-### Show an early step to a reviewer
-
-Share the plan or the first step before finishing everything. Disagreement is cheapest to resolve early.
+Order the steps by dependency and risk, with preparation first ([break down work](../break-down-work.md)). Each step should be judged as one unit and checked before the next begins.
 
 ### Escalate when it grows
 

@@ -39,9 +39,9 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [identifiers-and-keys](checks/identifiers-and-keys.md) | 0 | 7 | 2 |
 | [input-handling](checks/security/input-handling.md) | 1 | 6 | 4 |
 | [interfaces-and-compatibility](checks/interfaces-and-compatibility.md) | 1 | 4 | 2 |
-| [large-changes](checks/planning/large-changes.md) | 0 | 3 | 4 |
-| [large-work](checks/planning/approaches/large-work.md) | 0 | 3 | 5 |
-| [medium-work](checks/planning/approaches/medium-work.md) | 0 | 7 | 0 |
+| [large-changes](checks/planning/large-changes.md) | 0 | 2 | 2 |
+| [large-work](checks/planning/approaches/large-work.md) | 0 | 0 | 5 |
+| [medium-work](checks/planning/approaches/medium-work.md) | 0 | 5 | 0 |
 | [modularity](checks/structure/modularity.md) | 1 | 9 | 1 |
 | [new-project](checks/planning/approaches/new-project.md) | 1 | 6 | 2 |
 | [observability](checks/observability.md) | 2 | 3 | 0 |

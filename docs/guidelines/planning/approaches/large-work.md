@@ -12,7 +12,7 @@ Record the goal, the end state, the approach, the options rejected, and the risk
 
 ### Test the riskiest assumption first
 
-Run a prototype or a thin slice through the part most likely to break the plan, and let the result change the plan. Finding the flaw after building around it is the costliest outcome.
+Run a prototype or a thin slice ([tackle the riskiest part first](../plan-a-change.md#tackle-the-riskiest-part-first)) through the part most likely to break the plan, and let the result change the plan. Finding the flaw after building around it is the costliest outcome.
 
 ### Deliver in thin end-to-end slices
 
@@ -25,18 +25,6 @@ Ship behind a switch or to a subset, and keep the old path until the new one is 
 ### Agree ownership and interfaces up front
 
 Name who owns each part, even if one person owns all of them, and agree the contracts between them before parallel work starts. Parallel work on unsettled contracts has to be redone.
-
-### Track progress against the end state
-
-Keep a visible list of what is done, what is left, and what is blocked, including removal of what is replaced. Work that stalls halfway leaves two systems.
-
-### Replan at each milestone
-
-At each milestone, compare the plan with what you learned and revise the remaining steps. Say what changed.
-
-### Tell the people affected
-
-Inform those whose work depends on the change before it starts and before each switch. Surprises on shared systems cost the most trust.
 
 ## Exceptions
 

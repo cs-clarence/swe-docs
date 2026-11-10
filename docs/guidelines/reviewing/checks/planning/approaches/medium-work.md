@@ -8,8 +8,6 @@ Verifies [planning/approaches/medium-work](../../../../planning/approaches/mediu
 | Is there a short written plan with goal, steps, risks, and verification? | [write a short plan first](../../../../planning/approaches/medium-work.md#write-a-short-plan-first) | Medium |
 | Were the interfaces between parts decided first? | [settle the interfaces before the internals](../../../../planning/approaches/medium-work.md#settle-the-interfaces-before-the-internals) | Medium |
 | Is the work split into ordered, reviewable steps? | [break it into two to five reviewable steps](../../../../planning/approaches/medium-work.md#break-it-into-two-to-five-reviewable-steps) | Medium |
-| Was each step verified before the next began? | [verify each step as you go](../../../../planning/approaches/medium-work.md#verify-each-step-as-you-go) | Medium |
-| Was the plan or a first step shared before the work was finished? | [show an early step to a reviewer](../../../../planning/approaches/medium-work.md#show-an-early-step-to-a-reviewer) | Medium |
 | Was the work escalated when it outgrew its kind? | [escalate when it grows](../../../../planning/approaches/medium-work.md#escalate-when-it-grows) | Medium |
 
 ## Blocking

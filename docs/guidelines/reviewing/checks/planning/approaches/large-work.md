@@ -9,9 +9,6 @@ Verifies [planning/approaches/large-work](../../../../planning/approaches/large-
 | Is the work cut into end-to-end slices that can ship? | [deliver in thin end-to-end slices](../../../../planning/approaches/large-work.md#deliver-in-thin-end-to-end-slices) | High |
 | Can each stage be released gradually and reversed? | [release in stages that can be reversed](../../../../planning/approaches/large-work.md#release-in-stages-that-can-be-reversed) | High |
 | Are ownership and the interfaces between parts agreed? | [agree ownership and interfaces up front](../../../../planning/approaches/large-work.md#agree-ownership-and-interfaces-up-front) | High |
-| Is progress tracked against the stated end state? | [track progress against the end state](../../../../planning/approaches/large-work.md#track-progress-against-the-end-state) | Medium |
-| Is the plan revisited at each milestone? | [replan at each milestone](../../../../planning/approaches/large-work.md#replan-at-each-milestone) | Medium |
-| Were affected people told before the work and each switch? | [tell the people affected](../../../../planning/approaches/large-work.md#tell-the-people-affected) | Medium |
 
 ## Blocking
 
