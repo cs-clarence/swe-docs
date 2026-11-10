@@ -1,0 +1,35 @@
+# Change size
+
+## Scope
+
+How big one change should be and how to split it. Applies when planning work and before asking for review. Splitting work into ordered steps is in [break down work](break-down-work.md).
+
+## Guidelines
+
+### Keep a change small enough to review
+
+Limit a change to what a reviewer can hold in mind and judge as one unit, with one purpose describable in a sentence. One bad part of a mixed change blocks the rest.
+
+### Split by purpose, not by file type
+
+Make each part stand alone: it works, passes its checks, and can be accepted or reverted on its own. A split into "all tests" and "all code" leaves neither reviewable.
+
+### Put preparation first
+
+Order parts as preparatory restructuring, then the behavior change, then cleanup. Each kind of change is then seen in isolation.
+
+### Keep together what only works together
+
+Do not split parts that are unsafe or meaningless alone, such as a signature change and its callers. Say why they are together.
+
+### Separate mechanical change from logic
+
+Keep renames, formatting, and regenerated output apart from hand-written logic, and say how they were produced or checked.
+
+### Plan work too big for one change
+
+Break it into steps that each leave the system working ([break down work](break-down-work.md), [large changes](large-changes.md)).
+
+## Exceptions
+
+Urgent fixes may be larger than ideal. State what was not separated.
