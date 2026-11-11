@@ -26,7 +26,7 @@ Rules for writing and changing code. Start with [core principles](../core/princi
 | [dependencies](dependencies.md) | Adding, updating, removing dependencies. |
 | [style](style.md) | Naming, readability, consistency. |
 | [comments](comments.md) | Inline and doc comments, TODOs. |
-| [documentation](documentation.md) | External docs. |
+| [documentation/](documentation/README.md) | Writing user and developer documents. Files: documentation, choosing-a-type, tutorials, how-to-guides, reference, explanation, project-readme, release-notes, developer-docs. |
 | [agents](agents.md) | Extra rules for agents. |
 
 Before starting, check the repository's [overrides](../core/precedence.md#overriding-rules), if any. Each rule is a heading; the rule is the first sentence, followed by its reason and limits.
