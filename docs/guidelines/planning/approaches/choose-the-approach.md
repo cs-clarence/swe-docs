@@ -26,6 +26,14 @@ When the unknowns dominate, run a short, bounded experiment on the riskiest one,
 
 Put the kind and the reason in the plan or description. A reviewer can then challenge the choice.
 
+### Make the assessment contain the same points every time
+
+Write the assessment with: the kind, the [risk tier](../../core/risk-tiers.md), the answers to the four questions, the main unknowns, the chosen next step, and what would make you move up a kind. A fixed set of points lets a reviewer compare assessments and see what is missing.
+
+### Let the kind and the tier each decide their own part
+
+The kind decides the shape of the plan and the tier decides the rigor, so state both and do not infer one from the other. Take the plan from the kind, and take verification and review from the tier ([effort by tier](../../core/risk-tiers.md#effort-by-tier)).
+
 ### Reassess as the work grows
 
 When the work touches more than assessed, move up a kind and revise the plan ([update the plan when facts change](../plan-a-change.md#update-the-plan-when-facts-change)). Do not finish a larger change under a smaller plan.

@@ -10,6 +10,10 @@ What a written plan contains, how it is kept while work runs, and what happens t
 
 Put the plan somewhere durable that anyone who works on or reviews the change can reach. A plan that lives only in your head cannot be checked, resumed, or corrected.
 
+### Find where the plan belongs before writing it
+
+Use the location the project names for plans. If it names none, use where the project already keeps similar plans. If there is no precedent, agree a location with the collaborators who will review the work, and record where the plan went.
+
 ### Cover the same points every time
 
 Include the goal, what is in and out of scope, the approach, the steps, the risks, how each step is verified, how it is undone, and the open questions. A fixed set of points shows what is missing.
