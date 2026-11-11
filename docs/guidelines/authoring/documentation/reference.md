@@ -38,7 +38,7 @@ For some products the interface the user sees is described in the code, and that
 | Configuration | Schema descriptions and defaults beside the settings |
 | Graphical interface | Labels, hints, and error messages in the interface itself |
 
-Check that the surfaced form is complete: the help output, generated site, or API description must show what the code states. Write guides, tutorials, and explanations as separate documents that link to it.
+Check that the surfaced form is complete: the help output, generated site, or API description must show what the code states. Write guides, tutorials, and explanations as separate documents that link to it, or, where the reference has no link target (such as a graphical interface), tell the reader where to find it.
 
 ### Keep examples short
 
