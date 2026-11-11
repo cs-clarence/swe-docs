@@ -13,6 +13,10 @@ Verifies [planning/agents](../../../planning/agents.md). Tier = lowest [risk tie
 | Is the plan limited to the request, with related problems listed separately? | [do not widen the request](../../../planning/agents.md#do-not-widen-the-request) | Low |
 | Was a divergence reported and the plan revised? | [stop and re-plan when work diverges](../../../planning/agents.md#stop-and-re-plan-when-work-diverges) | Medium |
 | Can another agent resume from the recorded plan and progress? | [leave a plan another agent can resume](../../../planning/agents.md#leave-a-plan-another-agent-can-resume) | Medium |
+| Was small work kept with one agent, and was larger work split only where parts were independent, bounded, and checkable, with integration and verification kept with one agent? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | Medium |
+| Did splitting save more than it cost in briefing, coordination, and checking? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | Medium |
+| For large work, were ownership and interfaces agreed and the riskiest assumption tested before parallel work started, and does the split follow the ownership boundaries? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | Medium |
+| At High risk, was every agent-authored part, including the coordinating agent's own, checked by someone other than its author? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | High |
 | Does each delegated brief stand alone, and was the combined result verified directly? | [give delegated work a self-contained brief](../../../planning/agents.md#give-delegated-work-a-self-contained-brief) | Medium |
 
 ## Blocking
