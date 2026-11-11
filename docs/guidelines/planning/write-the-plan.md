@@ -12,7 +12,7 @@ Put the plan somewhere durable that anyone who works on or reviews the change ca
 
 ### Find where the plan belongs before writing it
 
-Use the location the project's instructions or overrides name. If none does, follow where the project already keeps similar plans. If neither exists, ask before choosing, and say where the plan went.
+Use the location the project names for plans. If it names none, use where the project already keeps similar plans. If there is no precedent, agree a location with the people who will review the work, and record where the plan went.
 
 ### Cover the same points every time
 
