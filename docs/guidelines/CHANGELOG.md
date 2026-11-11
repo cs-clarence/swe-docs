@@ -4,6 +4,8 @@ Record renamed or removed headings, and rules made stricter or looser. Consumers
 
 ## Unreleased
 
+- Restructured (breaking): `authoring/documentation.md` moved to `authoring/documentation/documentation.md` and its checks from `reviewing/checks/documentation.md` to `reviewing/checks/documentation/documentation.md`. Headings did not change; its scope now covers all documents. Update override paths.
+- documentation: added `choosing-a-type` (Diátaxis), `tutorials`, `how-to-guides`, `reference`, `explanation`, `project-readme`, `release-notes`, and `developer-docs`, each with checks, including reference "Treat in-code descriptions as the user's reference" (library docs, CLI help, API annotations). No headings changed.
 - planning/agents: added "Scope each part's checks to its change" and "Run the broad checks once, at integration", with checks. No headings changed.
 - planning/agents: added "Split work between agents only when it pays", keyed to the kind of work and the risk tier, with checks. No headings changed.
 - Initial guidelines: core, authoring (including architecture, modularity, abstraction, comments, test-strategy), reviewing, each with checks.

@@ -59,7 +59,10 @@ Links point one way: reviewing → authoring → planning → core. The usual or
 | Settings and feature flags | [configuration](authoring/configuration.md) |
 | GUI states, feedback, error handling | [ui-behavior](authoring/ui/ui-behavior.md) |
 | GUI accessibility and translation | [accessibility-and-i18n](authoring/ui/accessibility-and-i18n.md) |
-| User-facing or external docs | [documentation](authoring/documentation.md) |
+| Any written document | [documentation](authoring/documentation/documentation.md) |
+| Choosing what kind of document to write | [choosing-a-type](authoring/documentation/choosing-a-type.md) |
+| User docs: tutorials, guides, reference, explanation, README, release notes | [documentation](authoring/documentation/README.md) |
+| Developer docs kept with the code | [developer-docs](authoring/documentation/developer-docs.md) |
 | Recording a significant decision | [decision-records](core/decision-records.md) |
 | Agent planning work | [planning/agents](planning/agents.md) |
 | Agent writing code | [authoring/agents](authoring/agents.md) |

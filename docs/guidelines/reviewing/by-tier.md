@@ -21,6 +21,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [break-down-work](checks/planning/break-down-work.md) | 0 | 6 | 1 |
 | [change-size](checks/planning/change-size.md) | 1 | 5 | 0 |
 | [choose-the-approach](checks/planning/approaches/choose-the-approach.md) | 1 | 7 | 0 |
+| [choosing-a-type](checks/documentation/choosing-a-type.md) | 3 | 1 | 0 |
 | [comments](checks/comments.md) | 5 | 2 | 0 |
 | [concurrency](checks/concurrency.md) | 0 | 3 | 3 |
 | [configuration](checks/configuration.md) | 3 | 3 | 0 |
@@ -33,10 +34,13 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [dependencies](checks/dependencies.md) | 2 | 3 | 0 |
 | [design-docs](checks/planning/design-docs.md) | 0 | 4 | 1 |
 | [design](checks/structure/design.md) | 0 | 4 | 1 |
-| [documentation](checks/documentation.md) | 4 | 2 | 0 |
+| [developer-docs](checks/documentation/developer-docs.md) | 2 | 4 | 0 |
+| [documentation](checks/documentation/documentation.md) | 4 | 2 | 0 |
 | [error-handling](checks/error-handling.md) | 1 | 8 | 1 |
+| [explanation](checks/documentation/explanation.md) | 5 | 0 | 0 |
 | [flaky-tests](checks/testing/flaky-tests.md) | 2 | 5 | 1 |
 | [generated-and-vendored-code](checks/generated-and-vendored-code.md) | 2 | 6 | 0 |
+| [how-to-guides](checks/documentation/how-to-guides.md) | 4 | 1 | 0 |
 | [identifiers-and-keys](checks/identifiers-and-keys.md) | 0 | 7 | 2 |
 | [input-handling](checks/security/input-handling.md) | 1 | 6 | 4 |
 | [interfaces-and-compatibility](checks/interfaces-and-compatibility.md) | 1 | 4 | 2 |
@@ -49,8 +53,11 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [output-handling](checks/security/output-handling.md) | 1 | 3 | 1 |
 | [performance](checks/performance.md) | 1 | 5 | 0 |
 | [plan-a-change](checks/planning/plan-a-change.md) | 0 | 7 | 3 |
+| [project-readme](checks/documentation/project-readme.md) | 5 | 0 | 0 |
 | [ready-to-build](checks/planning/ready-to-build.md) | 0 | 5 | 4 |
 | [refactoring](checks/structure/refactoring.md) | 3 | 3 | 0 |
+| [reference](checks/documentation/reference.md) | 3 | 4 | 0 |
+| [release-notes](checks/documentation/release-notes.md) | 2 | 4 | 0 |
 | [releases-and-rollback](checks/releases-and-rollback.md) | 1 | 4 | 4 |
 | [resilience](checks/resilience.md) | 0 | 4 | 2 |
 | [security-and-privacy](checks/security/security-and-privacy.md) | 2 | 4 | 4 |
@@ -62,6 +69,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [testing](checks/testing/testing.md) | 2 | 9 | 0 |
 | [threat-review](checks/threat-review.md) | 0 | 2 | 9 |
 | [time-and-numbers](checks/time-and-numbers.md) | 0 | 4 | 2 |
+| [tutorials](checks/documentation/tutorials.md) | 5 | 0 | 0 |
 | [ui-behavior](checks/ui/ui-behavior.md) | 0 | 8 | 1 |
 | [when-to-ask](checks/core/when-to-ask.md) | 2 | 4 | 0 |
 | [write-the-plan](checks/planning/write-the-plan.md) | 0 | 7 | 0 |
