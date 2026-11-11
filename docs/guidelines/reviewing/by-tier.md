@@ -40,7 +40,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [explanation](checks/documentation/explanation.md) | 5 | 0 | 0 |
 | [flaky-tests](checks/testing/flaky-tests.md) | 2 | 5 | 1 |
 | [generated-and-vendored-code](checks/generated-and-vendored-code.md) | 2 | 6 | 0 |
-| [how-to-guides](checks/documentation/how-to-guides.md) | 3 | 2 | 0 |
+| [how-to-guides](checks/documentation/how-to-guides.md) | 4 | 1 | 0 |
 | [identifiers-and-keys](checks/identifiers-and-keys.md) | 0 | 7 | 2 |
 | [input-handling](checks/security/input-handling.md) | 1 | 6 | 4 |
 | [interfaces-and-compatibility](checks/interfaces-and-compatibility.md) | 1 | 4 | 2 |
@@ -53,7 +53,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [output-handling](checks/security/output-handling.md) | 1 | 3 | 1 |
 | [performance](checks/performance.md) | 1 | 5 | 0 |
 | [plan-a-change](checks/planning/plan-a-change.md) | 0 | 7 | 3 |
-| [project-readme](checks/documentation/project-readme.md) | 4 | 1 | 0 |
+| [project-readme](checks/documentation/project-readme.md) | 5 | 0 | 0 |
 | [ready-to-build](checks/planning/ready-to-build.md) | 0 | 5 | 4 |
 | [refactoring](checks/structure/refactoring.md) | 3 | 3 | 0 |
 | [reference](checks/documentation/reference.md) | 3 | 4 | 0 |
@@ -69,7 +69,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [testing](checks/testing/testing.md) | 2 | 9 | 0 |
 | [threat-review](checks/threat-review.md) | 0 | 2 | 9 |
 | [time-and-numbers](checks/time-and-numbers.md) | 0 | 4 | 2 |
-| [tutorials](checks/documentation/tutorials.md) | 4 | 1 | 0 |
+| [tutorials](checks/documentation/tutorials.md) | 5 | 0 | 0 |
 | [ui-behavior](checks/ui/ui-behavior.md) | 0 | 8 | 1 |
 | [when-to-ask](checks/core/when-to-ask.md) | 2 | 4 | 0 |
 | [write-the-plan](checks/planning/write-the-plan.md) | 0 | 7 | 0 |
