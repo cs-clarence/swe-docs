@@ -16,7 +16,7 @@ Document public elements with doc comments, as in [document public contracts](..
 
 ### Write reference material in the code
 
-Make doc comments and definitions the source for API reference, and generate user-facing [reference](reference.md) from them where possible. Writing a fact in the code and again in a document creates two sources.
+Make doc comments and definitions the source for API reference, and generate user-facing [reference](reference.md) from them where possible. Writing a fact in the code and again in a document creates two sources. For products whose users see this material directly, see [treat in-code descriptions as the user's reference](reference.md#treat-in-code-descriptions-as-the-users-reference).
 
 ### Record why in decisions and design docs
 

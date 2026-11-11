@@ -56,7 +56,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [project-readme](checks/documentation/project-readme.md) | 4 | 1 | 0 |
 | [ready-to-build](checks/planning/ready-to-build.md) | 0 | 5 | 4 |
 | [refactoring](checks/structure/refactoring.md) | 3 | 3 | 0 |
-| [reference](checks/documentation/reference.md) | 3 | 3 | 0 |
+| [reference](checks/documentation/reference.md) | 3 | 4 | 0 |
 | [release-notes](checks/documentation/release-notes.md) | 2 | 4 | 0 |
 | [releases-and-rollback](checks/releases-and-rollback.md) | 1 | 4 | 4 |
 | [resilience](checks/resilience.md) | 0 | 4 | 2 |
