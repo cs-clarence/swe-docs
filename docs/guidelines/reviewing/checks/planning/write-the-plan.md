@@ -5,7 +5,7 @@ Verifies [planning/write-the-plan](../../../planning/write-the-plan.md). Tier = 
 | Check | Rule | Tier |
 | --- | --- | --- |
 | Is the plan in a durable place that reviewers can reach? | [keep the plan where the work and its readers can find it](../../../planning/write-the-plan.md#keep-the-plan-where-the-work-and-its-readers-can-find-it) | Medium |
-| Was the location the one the project names, else where similar plans already live, else agreed with reviewers, and recorded? | [find where the plan belongs before writing it](../../../planning/write-the-plan.md#find-where-the-plan-belongs-before-writing-it) | Medium |
+| Was the location the one the project names, else where similar plans already live, else agreed with collaborators, and recorded? | [find where the plan belongs before writing it](../../../planning/write-the-plan.md#find-where-the-plan-belongs-before-writing-it) | Medium |
 | Does it cover goal, scope, approach, steps, risks, verification, undo, and open questions, or say what was left out? | [cover the same points every time](../../../planning/write-the-plan.md#cover-the-same-points-every-time) | Medium |
 | Is the plan's size in proportion to the risk? | [size the plan to the risk](../../../planning/write-the-plan.md#size-the-plan-to-the-risk) | Medium |
 | Does the plan show what is done, changed, or dropped, and why? | [keep the plan current](../../../planning/write-the-plan.md#keep-the-plan-current) | Medium |
