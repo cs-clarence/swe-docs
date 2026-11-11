@@ -20,7 +20,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [authentication-and-sessions](checks/security/authentication-and-sessions.md) | 0 | 2 | 8 |
 | [break-down-work](checks/planning/break-down-work.md) | 0 | 6 | 1 |
 | [change-size](checks/planning/change-size.md) | 1 | 5 | 0 |
-| [choose-the-approach](checks/planning/approaches/choose-the-approach.md) | 1 | 5 | 0 |
+| [choose-the-approach](checks/planning/approaches/choose-the-approach.md) | 1 | 7 | 0 |
 | [comments](checks/comments.md) | 5 | 2 | 0 |
 | [concurrency](checks/concurrency.md) | 0 | 3 | 3 |
 | [configuration](checks/configuration.md) | 3 | 3 | 0 |
@@ -64,4 +64,4 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [time-and-numbers](checks/time-and-numbers.md) | 0 | 4 | 2 |
 | [ui-behavior](checks/ui/ui-behavior.md) | 0 | 8 | 1 |
 | [when-to-ask](checks/core/when-to-ask.md) | 2 | 4 | 0 |
-| [write-the-plan](checks/planning/write-the-plan.md) | 0 | 6 | 0 |
+| [write-the-plan](checks/planning/write-the-plan.md) | 0 | 7 | 0 |

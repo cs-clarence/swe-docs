@@ -9,6 +9,8 @@ Verifies [planning/approaches/choose-the-approach](../../../../planning/approach
 | Is the chosen kind the lightest that covers the work? | [pick the lightest approach that fits](../../../../planning/approaches/choose-the-approach.md#pick-the-lightest-approach-that-fits) | Low |
 | If unknowns dominate, was a bounded experiment run before the kind was chosen? | [resolve unknowns before choosing](../../../../planning/approaches/choose-the-approach.md#resolve-unknowns-before-choosing) | Medium |
 | Are the chosen kind and the reason stated? | [state the chosen kind and why](../../../../planning/approaches/choose-the-approach.md#state-the-chosen-kind-and-why) | Medium |
+| Does the assessment give kind, tier, the four answers, main unknowns, next step, and what would raise the kind? | [make the assessment contain the same points every time](../../../../planning/approaches/choose-the-approach.md#make-the-assessment-contain-the-same-points-every-time) | Medium |
+| Are the kind and the tier both stated, with the plan taken from the kind and rigor from the tier? | [let the kind and the tier each decide their own part](../../../../planning/approaches/choose-the-approach.md#let-the-kind-and-the-tier-each-decide-their-own-part) | Medium |
 | Was the kind reassessed when the work outgrew the plan? | [reassess as the work grows](../../../../planning/approaches/choose-the-approach.md#reassess-as-the-work-grows) | Medium |
 
 ## Blocking
