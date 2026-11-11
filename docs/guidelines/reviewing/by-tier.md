@@ -14,7 +14,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | --- | --- | --- | --- |
 | [abstraction](checks/structure/abstraction.md) | 3 | 8 | 0 |
 | [accessibility-and-i18n](checks/ui/accessibility-and-i18n.md) | 1 | 4 | 0 |
-| [agents](checks/planning/agents.md) | 2 | 7 | 1 |
+| [agents](checks/planning/agents.md) | 2 | 8 | 2 |
 | [approach](checks/approach.md) | 6 | 2 | 0 |
 | [architecture](checks/structure/architecture.md) | 0 | 10 | 3 |
 | [authentication-and-sessions](checks/security/authentication-and-sessions.md) | 0 | 2 | 8 |

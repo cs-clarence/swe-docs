@@ -4,6 +4,7 @@ Record renamed or removed headings, and rules made stricter or looser. Consumers
 
 ## Unreleased
 
+- planning/agents: added "Split work between agents only when it pays", keyed to the kind of work and the risk tier, with checks. No headings changed.
 - Initial guidelines: core, authoring (including architecture, modularity, abstraction, comments, test-strategy), reviewing, each with checks.
 - core/glossary: plain imperative rules are *must*; added *module* and *public interface*.
 - testing: renamed "Cover boundaries and failures" to "Cover edge values and failures"; removed "Report what is untested" (see approach: "Explain the result"); moved the where-to-test table to test-strategy.

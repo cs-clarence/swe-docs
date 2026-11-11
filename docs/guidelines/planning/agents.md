@@ -38,6 +38,16 @@ If a step fails, an assumption proves wrong, or the scope grows, pause, say what
 
 When work may continue in another session or by another agent, record the plan and its progress where the next reader will find it: what is done, what is next, and what is blocked.
 
+### Split work between agents only when it pays
+
+Do the work yourself unless splitting it saves more than it costs in briefing, coordination, and checking. Split only parts that are independent, bounded, and checkable on their own, and keep integration and final verification with one agent ([break down work](break-down-work.md)). Follow the [kind of work](approaches/choose-the-approach.md):
+
+- **Small work:** do not split.
+- **Medium work:** delegate independent parts, such as reading and analysis, or a component with a settled interface.
+- **Large work:** split along ownership boundaries after the contracts are agreed ([agree ownership and interfaces up front](approaches/large-work.md#agree-ownership-and-interfaces-up-front)), and test the riskiest assumption before parallel work starts.
+
+At High [risk](../core/risk-tiers.md), do not let an agent be the only checker of its own part.
+
 ### Give delegated work a self-contained brief
 
 When splitting work between agents, give each one the goal, the scope, the inputs it needs, what it must not touch, and how its result will be checked. Keep the parts independent, and verify the combined result yourself; do not rely on each agent's report.

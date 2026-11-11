@@ -13,6 +13,8 @@ Verifies [planning/agents](../../../planning/agents.md). Tier = lowest [risk tie
 | Is the plan limited to the request, with related problems listed separately? | [do not widen the request](../../../planning/agents.md#do-not-widen-the-request) | Low |
 | Was a divergence reported and the plan revised? | [stop and re-plan when work diverges](../../../planning/agents.md#stop-and-re-plan-when-work-diverges) | Medium |
 | Can another agent resume from the recorded plan and progress? | [leave a plan another agent can resume](../../../planning/agents.md#leave-a-plan-another-agent-can-resume) | Medium |
+| Was work split between agents only where parts were independent and checkable, with integration and verification kept with one agent? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | Medium |
+| At High risk, was each delegated part checked by someone other than the agent that did it? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | High |
 | Does each delegated brief stand alone, and was the combined result verified directly? | [give delegated work a self-contained brief](../../../planning/agents.md#give-delegated-work-a-self-contained-brief) | Medium |
 
 ## Blocking
