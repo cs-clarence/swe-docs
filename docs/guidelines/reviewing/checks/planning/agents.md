@@ -17,6 +17,8 @@ Verifies [planning/agents](../../../planning/agents.md). Tier = lowest [risk tie
 | Did splitting save more than it cost in briefing, coordination, and checking? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | Medium |
 | For large work, were ownership and interfaces agreed and the riskiest assumption tested before parallel work started, and does the split follow the ownership boundaries? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | Medium |
 | At High risk, was every agent-authored part, including the coordinating agent's own, checked by someone other than its author? | [split work between agents only when it pays](../../../planning/agents.md#split-work-between-agents-only-when-it-pays) | High |
+| Did each delegated part name and run the checks its change can affect, widened when it touched a contract, shared state, shared configuration, or dependencies? | [scope each part's checks to its change](../../../planning/agents.md#scope-each-parts-checks-to-its-change) | Low |
+| After the parts were combined, were the checks for the whole change run for the size of the work, and were any left to automated checks stated? | [run the broad checks once, at integration](../../../planning/agents.md#run-the-broad-checks-once-at-integration) | Low |
 | Does each delegated brief stand alone, and was the combined result verified directly? | [give delegated work a self-contained brief](../../../planning/agents.md#give-delegated-work-a-self-contained-brief) | Medium |
 
 ## Blocking

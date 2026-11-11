@@ -52,6 +52,20 @@ At High [risk](../core/risk-tiers.md), do not let an agent be the only checker o
 
 When splitting work between agents, give each one the goal, the scope, the inputs it needs, what it must not touch, and how its result will be checked. Keep the parts independent, and verify the combined result yourself; do not rely on each agent's report.
 
+### Scope each part's checks to its change
+
+Give each delegated part the checks its change can affect, and no more, so parts finish fast. Name them in the brief. Widen a part's checks when it:
+
+- changes a contract, a public interface, a schema, or shared state;
+- changes shared configuration, build settings, dependencies, or generated code;
+- has checks too slow or too unreliable for a narrow pass to show much.
+
+At High [risk](../core/risk-tiers.md), also check the callers of anything the part changes.
+
+### Run the broad checks once, at integration
+
+After the parts are combined, the agent that integrates runs the checks that cover the whole change, locally, and does not rely on each part's report. Run the full set for large work. For small or medium work, run the checks relevant to the change. For small or medium work at Low risk, the project's automated checks on the integrated change may stand in for a local run. Say which checks could not run locally and were left to automated checks.
+
 ## Exceptions
 
 If the user explicitly asks you to proceed without a plan or without waiting, follow them and state what you skipped.
