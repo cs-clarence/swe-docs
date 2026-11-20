@@ -4,6 +4,7 @@ Record renamed or removed headings, and rules made stricter or looser. Consumers
 
 ## Unreleased
 
+- performance: added "Change architecture only for a measured bottleneck", linked to architecture's extend-in-place and evolve-in-steps rules, with a check. No headings changed.
 - Restructured (breaking): `authoring/documentation.md` moved to `authoring/documentation/documentation.md` and its checks from `reviewing/checks/documentation.md` to `reviewing/checks/documentation/documentation.md`. Headings did not change; its scope now covers all documents. Update override paths.
 - documentation: added `choosing-a-type` (Diátaxis), `tutorials`, `how-to-guides`, `reference`, `explanation`, `project-readme`, `release-notes`, and `developer-docs`, each with checks, including reference "Treat in-code descriptions as the user's reference" (library docs, CLI help, API annotations). No headings changed.
 - planning/agents: added "Scope each part's checks to its change" and "Run the broad checks once, at integration", with checks. No headings changed.

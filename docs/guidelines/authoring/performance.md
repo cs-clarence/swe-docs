@@ -30,6 +30,10 @@ Show before and after measurements for any optimization made for speed. Keep it 
 
 Do not trade readability for speed without evidence of need ([design](structure/design.md)).
 
+### Change architecture only for a measured bottleneck
+
+When measurement shows the current architecture is the bottleneck, change it deliberately: as its own change, with a stated target, moved in steps while the system keeps working ([extend the existing architecture](structure/architecture.md#extend-the-existing-architecture), [evolve in steps](structure/architecture.md#evolve-in-steps)). Do not redesign for speed on a guess, and do not fold the change into an unrelated feature.
+
 ## Exceptions
 
 Hard real-time or resource-constrained code may need design-time performance work; state the constraint.

@@ -10,6 +10,7 @@ Verifies [authoring/performance](../../authoring/performance.md). Tier = lowest 
 | Are inputs, queues, and results bounded? | [bound resource use](../../authoring/performance.md#bound-resource-use) | Medium |
 | Is improvement shown by measurement? | [prove the improvement](../../authoring/performance.md#prove-the-improvement) | Medium |
 | Is complexity justified by evidence? | [keep clarity unless measurement justifies otherwise](../../authoring/performance.md#keep-clarity-unless-measurement-justifies-otherwise) | Low |
+| Is an architecture change backed by a measured bottleneck and made as its own, incremental change? | [change architecture only for a measured bottleneck](../../authoring/performance.md#change-architecture-only-for-a-measured-bottleneck) | Medium |
 
 ## Blocking
 
