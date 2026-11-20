@@ -51,7 +51,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [new-project](checks/planning/approaches/new-project.md) | 1 | 7 | 2 |
 | [observability](checks/observability.md) | 2 | 3 | 0 |
 | [output-handling](checks/security/output-handling.md) | 1 | 3 | 1 |
-| [performance](checks/performance.md) | 1 | 5 | 0 |
+| [performance](checks/performance.md) | 1 | 6 | 0 |
 | [plan-a-change](checks/planning/plan-a-change.md) | 0 | 7 | 3 |
 | [project-readme](checks/documentation/project-readme.md) | 5 | 0 | 0 |
 | [ready-to-build](checks/planning/ready-to-build.md) | 0 | 5 | 4 |
