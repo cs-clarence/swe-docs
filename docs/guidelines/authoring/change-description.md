@@ -20,7 +20,7 @@ Name the alternatives rejected for each significant choice, and why. Where decis
 
 ### Add a design section when the change reaches wide
 
-Add a separate section, after the summary and clearly marked as optional reading, when the change has a wide blast radius, spans several components or systems, or alters architecture, a contract, or data flow. It tells the reviewer where to look beyond the diff, so reviewers of narrow changes can skip it.
+At Medium risk and above, add a separate section, after the summary and clearly marked as optional reading, when the change has a wide blast radius, spans several components or systems, or alters architecture, a contract, or data flow. It tells the reviewer where to look beyond the diff, so reviewers of narrow changes can skip it.
 
 The section covers:
 
@@ -46,4 +46,4 @@ Design section for a change that moves session storage to a shared service:
 
 ## Exceptions
 
-A change that is Low risk and touches one place needs only the summary. An urgent fix may start with a short description; complete it afterwards and say what was skipped ([approach](approach.md#explain-the-result)).
+A change that is Low risk and touches one place needs only the summary, plus anything not done or uncertain ([explain the result](approach.md#explain-the-result)); this holds for agents too. An urgent fix may start with a short description; complete it afterwards and say what was skipped ([approach](approach.md#explain-the-result)).
