@@ -32,7 +32,7 @@ Do not invent APIs, files, results, or sources. If you cannot confirm something,
 
 ### Report limitations
 
-Close with the [result explanation](approach.md#explain-the-result), including what was not done or is uncertain. Add any conflict between instructions and which you followed.
+Close with the [result explanation](approach.md#explain-the-result) as a [change description](change-description.md), including what was not done or is uncertain. Add any conflict between instructions and which you followed.
 
 ### Keep secrets out of reach
 

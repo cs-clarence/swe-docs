@@ -68,6 +68,7 @@ Links point one way: reviewing → authoring → planning → core. The usual or
 | Agent writing code | [authoring/agents](authoring/agents.md) |
 | Reviewing a change | [reviewing/process](reviewing/process.md), then the matching [checks](reviewing/checks) |
 | Self-reviewing before asking for review | [self-review](authoring/self-review.md) |
+| Writing a change description | [change-description](authoring/change-description.md) |
 | Deciding how big a change should be | [change-size](planning/change-size.md) |
 | Reviewing a high-risk security change | [threat-review](reviewing/checks/threat-review.md) |
 | Reviewing agent output | [reviewing/agents](reviewing/agents.md) |

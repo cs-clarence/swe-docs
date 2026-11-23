@@ -6,6 +6,7 @@ Rules for writing and changing code. Start with [core principles](../core/princi
 | --- | --- |
 | [approach](approach.md) | Understand, scope, implement, verify, explain. |
 | [self-review](self-review.md) | What an author checks before asking for review. |
+| [change-description](change-description.md) | What a change description contains, including a design section for wide changes. |
 | [debugging-and-bug-fixing](debugging-and-bug-fixing.md) | Reproduce, find the cause, test, look elsewhere. |
 | [releases-and-rollback](releases-and-rollback.md) | Reversible, staged, observable releases. |
 | [generated-and-vendored-code](generated-and-vendored-code.md) | Editing, marking, and updating generated and copied code. |

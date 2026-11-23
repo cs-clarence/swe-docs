@@ -56,7 +56,7 @@ Change architecture incrementally, keeping the system working at each step. Run 
 
 ### Record significant decisions
 
-When a choice shapes the system and is not obvious from the code, note what was decided, why, and what was rejected, in the place the repository keeps such notes or in the change description.
+When a choice shapes the system and is not obvious from the code, note what was decided, why, and what was rejected, in the place the repository keeps such notes or in the change description ([what a description contains](../change-description.md)).
 
 ## Examples
 
