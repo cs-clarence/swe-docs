@@ -19,6 +19,7 @@ Run every row in the matching [checks](checks) files whose tier is at or below t
 | [architecture](checks/structure/architecture.md) | 0 | 10 | 3 |
 | [authentication-and-sessions](checks/security/authentication-and-sessions.md) | 0 | 2 | 8 |
 | [break-down-work](checks/planning/break-down-work.md) | 0 | 6 | 1 |
+| [change-description](checks/change-description.md) | 2 | 3 | 1 |
 | [change-size](checks/planning/change-size.md) | 1 | 5 | 0 |
 | [choose-the-approach](checks/planning/approaches/choose-the-approach.md) | 1 | 7 | 0 |
 | [choosing-a-type](checks/documentation/choosing-a-type.md) | 3 | 1 | 0 |

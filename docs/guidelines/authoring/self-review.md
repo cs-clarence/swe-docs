@@ -24,7 +24,7 @@ For every statement in the description, such as "fixes X" or "no behavior change
 
 ### Mark the riskiest part
 
-Say where you are least sure and what you did not verify, so reviewer attention goes there ([explain the result](approach.md#explain-the-result)).
+Say where you are least sure and what you did not verify, so reviewer attention goes there ([explain the result](approach.md#explain-the-result)). Put it in the [change description](change-description.md).
 
 ### Split what is too big
 

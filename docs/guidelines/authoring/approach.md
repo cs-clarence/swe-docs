@@ -36,7 +36,7 @@ Run the checks that exercise the change: tests, build, linter, or manual use, sc
 
 ### Explain the result
 
-Describe what changed, why, how it was verified, and what remains unverified or risky. Detail scales with the risk tier.
+Describe what changed, why, how it was verified, and what remains unverified or risky. Detail scales with the risk tier. Structure and the design section for wide changes are in [change description](change-description.md).
 
 ## Exceptions
 
